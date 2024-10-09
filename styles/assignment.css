@@ -37,7 +37,7 @@
 .banner{
     margin-top: 10px;
     height: 400px;
-    background-image: url('./assets/Hero-bg.png');
+    background-image: url('../assets/Hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -176,4 +176,16 @@ background-color: rgba(255, 234, 0, 0.161);
     background-position: center;
     background-blend-mode: overlay;
     border-radius: 9px;
+}
+
+footer{
+    background-color: gainsboro;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0 50px;
 }
