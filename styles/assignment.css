@@ -82,6 +82,28 @@ color: black;
 /* Main  */
 
 .main{
-    margin: 50px 100px;
+    margin: 50px 70px;
     background-color: rgba(244, 226, 226, 0.266);
+    padding: 30px 40px;
+    border-radius: 10px;
+}
+
+/* Basic */
+
+.basic{
+    text-align: center;
+}
+
+/* Section  */
+
+/* Layer-1 */
+
+.layer-1{
+    display: flex;
+    justify-content: space-around;
+    gap: 90px;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.668);
+    padding: 35px;
+    margin-bottom: 30px;
 }
